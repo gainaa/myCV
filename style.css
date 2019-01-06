@@ -42,6 +42,11 @@ header img {
   height: auto;
 }
 
+a .far,
+a .fab {
+  color: white;
+}
+
 h1 {
   margin: 1em 0;
   text-transform: uppercase;
@@ -59,6 +64,19 @@ main {
 
 .school span {
   color: #A7B8BF;
+}
+
+a .far,
+a .fab {
+  display: inline-block;
+  border: 1px solid white;
+  border-radius: 50%;
+  font-size: 1.5em;
+  width: 1.5em;
+  height: 1.5em;
+  line-height: 1.5em;
+  margin: 5px;
+  text-align: center;
 }
 
 footer {
