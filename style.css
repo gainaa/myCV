@@ -27,7 +27,7 @@ header {
   text-align: center;
   color: white;
   background-size: cover;
-  background-position: center;
+  background-position: fixed;
   background-image: url('img/bg.jpg');
 }
 
