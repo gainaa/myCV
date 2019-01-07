@@ -158,5 +158,13 @@ a .fab {
 }
 
 footer {
-  padding: 1em;
+  padding: 1em 1.5em;
+  background: #A7B8BF;
+  color: white;
+  text-align: right;
+}
+
+footer a {
+  text-decoration: none;
+  color: white;
 }
