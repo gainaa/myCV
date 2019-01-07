@@ -56,11 +56,39 @@ main {
   max-width: 1140px;
 }
 
-.course {}
+main section:not(:last-child) {
+  border-bottom: 1px solid #ccc;
+}
 
-.course .title {}
+h3,
+.title {
+  font-weight: bold;
+  text-transform: uppercase;
+}
 
-.course .descrition {}
+article {
+  padding: 0 1em;
+}
+
+.course {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.course .title {
+  flex: 0 0 33.3%;
+  max-width: 33%;
+  color: #509e98;
+}
+
+.course .descrition {
+  flex: 0 0 66.6%;
+  max-width: 66.6%;
+}
+
+.course .descrition p {
+  padding-left: 1em;
+}
 
 .school span {
   color: #A7B8BF;
