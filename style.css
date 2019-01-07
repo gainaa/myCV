@@ -117,10 +117,12 @@ ul.list-dashed,
   padding: 0;
 }
 
+.hobby ul,
 ul.list-dashed>li {
   padding-left: 1.5em;
 }
 
+.hobby ul>li:before,
 ul.list-dashed>li:before {
   content: "►";
   padding-right: 0.5em;
@@ -155,6 +157,10 @@ a .fab {
   line-height: 1.5em;
   margin: 5px;
   text-align: center;
+}
+
+.hobby ul {
+  list-style: none;
 }
 
 footer {
