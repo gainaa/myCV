@@ -84,13 +84,13 @@ article {
   color: #509e98;
 }
 
-.course .descrition {
+.course .description {
   -ms-flex: 0 0 66.6%;
   flex: 0 0 66.6%;
   max-width: 66.6%;
 }
 
-.course .descrition p {
+.course .description p {
   padding-left: 1em;
 }
 
@@ -111,7 +111,8 @@ ul {
   margin: 0;
 }
 
-ul.list-dashed {
+ul.list-dashed,
+.work-description ul {
   list-style-type: none;
   padding: 0;
 }
@@ -126,15 +127,21 @@ ul.list-dashed>li:before {
   color: #509e98;
 }
 
-.school span {
-  color: #A7B8BF;
-}
-
 .school span,
 .work span {
   color: #889499;
   text-decoration: underline;
   text-transform: capitalize;
+}
+
+.work-description {
+  margin-bottom: 1em;
+}
+
+.work-description ul li:before {
+  content: "✔";
+  padding-right: 0.5em;
+  color: #509e98;
 }
 
 a .far,
