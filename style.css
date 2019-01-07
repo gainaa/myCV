@@ -130,6 +130,13 @@ ul.list-dashed>li:before {
   color: #A7B8BF;
 }
 
+.school span,
+.work span {
+  color: #889499;
+  text-decoration: underline;
+  text-transform: capitalize;
+}
+
 a .far,
 a .fab {
   display: inline-block;
