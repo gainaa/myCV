@@ -11,6 +11,12 @@ article {
   padding: 0 1em;
 }
 
+a {
+  text-decoration: none;
+  color: #509e98;
+  font-weight: bold;
+}
+
 section {
   margin: 1em;
   padding: 1em;
