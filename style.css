@@ -169,6 +169,11 @@ a .fab {
   list-style: none;
 }
 
+.statement {
+  font-size: 1em;
+  color: #889499;
+}
+
 footer {
   padding: 1em 1.5em;
   background: #A7B8BF;
