@@ -170,7 +170,7 @@ a .fab {
 }
 
 .statement {
-  font-size: 1em;
+  font-size: 0.8em;
   color: #889499;
 }
 
@@ -178,7 +178,7 @@ footer {
   padding: 1em 1.5em;
   background: #A7B8BF;
   color: white;
-  text-align: right;
+  text-align: justify;
 }
 
 footer a {
