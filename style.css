@@ -172,6 +172,7 @@ a .fab {
 .statement {
   font-size: 0.8em;
   color: white;
+  text-align: justify;
 }
 
 footer {
